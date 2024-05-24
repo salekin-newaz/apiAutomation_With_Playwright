@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
-var userid;
+let userid;
 
 
 test('Get user', async ({ request }) => {
@@ -22,8 +22,23 @@ test('Create User', async ({ request }) => {
 
     console.log(await response.json())
     expect(response.status()).toBe(201)
-    var res= await response.json()
+    const res = await response.json();
     userid=res.id
     console.log('Test is ending');
 })
 
+test('Update user', async ({ request }) => {
+    console.log("Test is started");
+    const response = await request.put('https://reqres.in/api/users/'+userid,
+        {
+            data:{"name": "salekin", "job": "engineer"},
+            headers:{"Accept": "application.json"}
+        });
+    console.log(await response.json())
+    expect(response.status()).toBe(200)
+})
+
+test("Delete user", async ({request}) =>{
+    const response= await request.delete('https://reqres.in/api/users/'+userid)
+    expect(response.status()).toBe(204)
+})

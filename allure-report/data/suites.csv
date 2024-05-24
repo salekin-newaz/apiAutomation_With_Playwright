@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 24 16:39:24 BDT 2024","Fri May 24 16:39:24 BDT 2024","509","chromium","reqresInTest.spec.js","","","","Create User",""
+"passed","Fri May 24 16:39:24 BDT 2024","Fri May 24 16:39:25 BDT 2024","507","chromium","reqresInTest.spec.js","","","","Update user",""
+"passed","Fri May 24 16:39:24 BDT 2024","Fri May 24 16:39:24 BDT 2024","181","chromium","reqresInTest.spec.js","","","","Get user",""
+"passed","Fri May 24 16:39:25 BDT 2024","Fri May 24 16:39:25 BDT 2024","478","chromium","reqresInTest.spec.js","","","","Delete user",""
