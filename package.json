@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    "test:ui": "npx playwright test --grep @UI",
-    "test:api": "npx playwright test --grep @API"},
+  "scripts": {
+    "test:ui": "npx playwright test --grep @UI",
+    "test:api": "npx playwright test --grep @API"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
