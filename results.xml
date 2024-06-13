@@ -1,9 +1,9 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.008242">
-<testsuite name="post_api_request_01.spec.js" timestamp="2024-06-04T11:05:42.882Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.22" errors="0">
-<testcase name="Create POST api request using static request body" classname="post_api_request_01.spec.js" time="1.22">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.67614">
+<testsuite name="post_api_request_02.spec.js" timestamp="2024-06-13T09:17:41.729Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.166" errors="0">
+<testcase name="Create POST api request using static JSON file" classname="post_api_request_02.spec.js" time="1.166">
 <system-out>
 <![CDATA[{
-  bookingid: [33m1750[39m,
+  bookingid: [33m2305[39m,
   booking: {
     firstname: [32m'Salekin'[39m,
     lastname: [32m'Newaz'[39m,
