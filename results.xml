@@ -1,16 +1,16 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.67614">
-<testsuite name="post_api_request_02.spec.js" timestamp="2024-06-13T09:17:41.729Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.166" errors="0">
-<testcase name="Create POST api request using static JSON file" classname="post_api_request_02.spec.js" time="1.166">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.665698">
+<testsuite name="post_api_request_04.spec.js" timestamp="2024-06-14T10:11:19.374Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.2" errors="0">
+<testcase name="Create POST api request using dynamic JSON file" classname="post_api_request_04.spec.js" time="1.2">
 <system-out>
 <![CDATA[{
-  bookingid: [33m2305[39m,
+  bookingid: [33m3615[39m,
   booking: {
-    firstname: [32m'Salekin'[39m,
-    lastname: [32m'Newaz'[39m,
+    firstname: [32m'salekin'[39m,
+    lastname: [32m'newaz'[39m,
     totalprice: [33m1000[39m,
     depositpaid: [33mtrue[39m,
     bookingdates: { checkin: [32m'2018-01-01'[39m, checkout: [32m'2019-01-01'[39m },
-    additionalneeds: [32m'super bowls'[39m
+    additionalneeds: [32m'windows'[39m
   }
 }
 ]]>

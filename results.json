@@ -71,13 +71,13 @@
   },
   "suites": [
     {
-      "title": "post_api_request_02.spec.js",
-      "file": "post_api_request_02.spec.js",
+      "title": "post_api_request_04.spec.js",
+      "file": "post_api_request_04.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Create POST api request using static JSON file",
+          "title": "Create POST api request using dynamic JSON file",
           "ok": true,
           "tags": [],
           "tests": [
@@ -91,25 +91,25 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1166,
+                  "duration": 1200,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "{\n  bookingid: \u001b[33m2305\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Salekin'\u001b[39m,\n    lastname: \u001b[32m'Newaz'\u001b[39m,\n    totalprice: \u001b[33m1000\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'super bowls'\u001b[39m\n  }\n}\n"
+                      "text": "{\n  bookingid: \u001b[33m3615\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'salekin'\u001b[39m,\n    lastname: \u001b[32m'newaz'\u001b[39m,\n    totalprice: \u001b[33m1000\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'windows'\u001b[39m\n  }\n}\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-06-13T09:17:42.176Z",
+                  "startTime": "2024-06-14T10:11:19.788Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "8bc533feffec02e9bf63-511646ac0b95b88a557b",
-          "file": "post_api_request_02.spec.js",
-          "line": 7,
+          "id": "c8d56b60ddc4a2451354-10a746338bdfcc433558",
+          "file": "post_api_request_04.spec.js",
+          "line": 10,
           "column": 1
         }
       ]
@@ -117,8 +117,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-13T09:17:41.696Z",
-    "duration": 1676.1399999999999,
+    "startTime": "2024-06-14T10:11:19.350Z",
+    "duration": 1665.6979999999999,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
