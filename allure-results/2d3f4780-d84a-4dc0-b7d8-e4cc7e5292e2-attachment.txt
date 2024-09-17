@@ -1,0 +1,11 @@
+{
+  bookingid: 800,
+  booking: {
+    firstname: 'Taryn',
+    lastname: 'Leffler',
+    totalprice: 634,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-09-18', checkout: '2024-09-23' },
+    additionalneeds: 'super bowls'
+  }
+}
