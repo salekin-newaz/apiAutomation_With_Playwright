@@ -1,20 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.008242">
-<testsuite name="post_api_request_01.spec.js" timestamp="2024-06-04T11:05:42.882Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.22" errors="0">
-<testcase name="Create POST api request using static request body" classname="post_api_request_01.spec.js" time="1.22">
-<system-out>
-<![CDATA[{
-  bookingid: [33m1750[39m,
-  booking: {
-    firstname: [32m'Salekin'[39m,
-    lastname: [32m'Newaz'[39m,
-    totalprice: [33m1000[39m,
-    depositpaid: [33mtrue[39m,
-    bookingdates: { checkin: [32m'2018-01-01'[39m, checkout: [32m'2019-01-01'[39m },
-    additionalneeds: [32m'super bowls'[39m
-  }
-}
-]]>
-</system-out>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.702075">
+<testsuite name="reqresInTest1.spec.js" timestamp="2024-09-17T17:48:23.773Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.776" errors="0">
+<testcase name="API Testing › Post Request - Create New User" classname="reqresInTest1.spec.js" time="0.776">
 </testcase>
 </testsuite>
 </testsuites>
