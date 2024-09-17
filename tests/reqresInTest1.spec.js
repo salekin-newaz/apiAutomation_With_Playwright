@@ -30,7 +30,7 @@ test.describe.parallel("API Testing", () =>{
 
     /* Post Request */
 
-    test.only("Post Request - Create New User", async({request}) =>{
+    test("Post Request - Create New User", async({request}) =>{
         const response= await request.post(`${baseUrl}/user`,{
             data:{
                 id: 1000,
