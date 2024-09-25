@@ -1,0 +1,11 @@
+{
+  bookingid: 17083,
+  booking: {
+    firstname: 'Magnus',
+    lastname: 'Hilll',
+    totalprice: 973,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-09-18', checkout: '2024-09-23' },
+    additionalneeds: 'super bowls'
+  }
+}

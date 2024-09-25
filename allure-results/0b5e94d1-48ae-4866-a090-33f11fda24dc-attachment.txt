@@ -1,0 +1,11 @@
+{
+  bookingid: 4358,
+  booking: {
+    firstname: 'Filomena',
+    lastname: 'Renner',
+    totalprice: 546,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-09-18', checkout: '2024-09-23' },
+    additionalneeds: 'super bowls'
+  }
+}

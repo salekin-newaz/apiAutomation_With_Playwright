@@ -1,9 +1,9 @@
 {
   "config": {
-    "configFile": "C:\\Personal\\apiAutomation_With_Playwright\\playwright.config.js",
-    "rootDir": "C:/Personal/apiAutomation_With_Playwright/tests",
+    "configFile": "D:\\apiAutomation\\playwright.config.js",
+    "rootDir": "D:/apiAutomation/tests",
     "forbidOnly": false,
-    "fullyParallel": false,
+    "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
     "globalTimeout": 0,
@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -36,7 +36,7 @@
         }
       ],
       [
-        "C:\\Personal\\apiAutomation_With_Playwright\\node_modules\\allure-playwright\\dist\\index.js",
+        "D:\\apiAutomation\\node_modules\\allure-playwright\\dist\\index.js",
         {
           "outputFolder": "allure-results"
         }
@@ -49,13 +49,13 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Personal/apiAutomation_With_Playwright/test-results",
+        "outputDir": "D:/apiAutomation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Personal/apiAutomation_With_Playwright/tests",
+        "testDir": "D:/apiAutomation/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -70,6 +70,210 @@
     "webServer": null
   },
   "suites": [
+    {
+      "title": "example.spec.js",
+      "file": "example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3146,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:01.055Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd9b2edffe9b7501040c-fe3fbe2603922999b144",
+          "file": "example.spec.js",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 2806,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:01.068Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd9b2edffe9b7501040c-18206e4c4b88f5cba6b3",
+          "file": "example.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "post_api_request_01.spec.js",
+      "file": "post_api_request_01.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create POST api request using static request body",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1455,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  bookingid: \u001b[33m4191\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Salekin'\u001b[39m,\n    lastname: \u001b[32m'Newaz'\u001b[39m,\n    totalprice: \u001b[33m1000\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'super bowls'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:01.123Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dda644ebc17b1dfd82db-569a5d4dc9febb53949e",
+          "file": "post_api_request_01.spec.js",
+          "line": 6,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "post_api_request_02.spec.js",
+      "file": "post_api_request_02.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create POST api request using static JSON file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1488,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  bookingid: \u001b[33m4189\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Salekin'\u001b[39m,\n    lastname: \u001b[32m'Newaz'\u001b[39m,\n    totalprice: \u001b[33m1000\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'super bowls'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:01.087Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8bc533feffec02e9bf63-511646ac0b95b88a557b",
+          "file": "post_api_request_02.spec.js",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "post_api_request_03.spec.js",
+      "file": "post_api_request_03.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create POST api request using dynamic request body",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1310,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  bookingid: \u001b[33m4358\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'Filomena'\u001b[39m,\n    lastname: \u001b[32m'Renner'\u001b[39m,\n    totalprice: \u001b[33m546\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2024-09-18'\u001b[39m, checkout: \u001b[32m'2024-09-23'\u001b[39m },\n    additionalneeds: \u001b[32m'super bowls'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:05.790Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6220bc5047d326b73b7d-f24af23ae3ea442e60e2",
+          "file": "post_api_request_03.spec.js",
+          "line": 9,
+          "column": 1
+        }
+      ]
+    },
     {
       "title": "post_api_request_04.spec.js",
       "file": "post_api_request_04.spec.js",
@@ -89,18 +293,18 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1200,
+                  "duration": 3211,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "{\n  bookingid: \u001b[33m3615\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'salekin'\u001b[39m,\n    lastname: \u001b[32m'newaz'\u001b[39m,\n    totalprice: \u001b[33m1000\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'windows'\u001b[39m\n  }\n}\n"
+                      "text": "{\n  bookingid: \u001b[33m4311\u001b[39m,\n  booking: {\n    firstname: \u001b[32m'salekin'\u001b[39m,\n    lastname: \u001b[32m'newaz'\u001b[39m,\n    totalprice: \u001b[33m1000\u001b[39m,\n    depositpaid: \u001b[33mtrue\u001b[39m,\n    bookingdates: { checkin: \u001b[32m'2018-01-01'\u001b[39m, checkout: \u001b[32m'2019-01-01'\u001b[39m },\n    additionalneeds: \u001b[32m'windows'\u001b[39m\n  }\n}\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-06-14T10:11:19.788Z",
+                  "startTime": "2024-09-17T18:13:02.615Z",
                   "attachments": []
                 }
               ],
@@ -113,13 +317,325 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "reqresInTest.spec.js",
+      "file": "reqresInTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 292,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test is starting\n"
+                    },
+                    {
+                      "text": "{\n  page: \u001b[33m2\u001b[39m,\n  per_page: \u001b[33m6\u001b[39m,\n  total: \u001b[33m12\u001b[39m,\n  total_pages: \u001b[33m2\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m7\u001b[39m,\n      email: \u001b[32m'michael.lawson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Michael'\u001b[39m,\n      last_name: \u001b[32m'Lawson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/7-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m8\u001b[39m,\n      email: \u001b[32m'lindsay.ferguson@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Lindsay'\u001b[39m,\n      last_name: \u001b[32m'Ferguson'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/8-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m9\u001b[39m,\n      email: \u001b[32m'tobias.funke@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Tobias'\u001b[39m,\n      last_name: \u001b[32m'Funke'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/9-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m10\u001b[39m,\n      email: \u001b[32m'byron.fields@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Byron'\u001b[39m,\n      last_name: \u001b[32m'Fields'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/10-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m11\u001b[39m,\n      email: \u001b[32m'george.edwards@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'George'\u001b[39m,\n      last_name: \u001b[32m'Edwards'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/11-image.jpg'\u001b[39m\n    },\n    {\n      id: \u001b[33m12\u001b[39m,\n      email: \u001b[32m'rachel.howell@reqres.in'\u001b[39m,\n      first_name: \u001b[32m'Rachel'\u001b[39m,\n      last_name: \u001b[32m'Howell'\u001b[39m,\n      avatar: \u001b[32m'https://reqres.in/img/faces/12-image.jpg'\u001b[39m\n    }\n  ],\n  support: {\n    url: \u001b[32m'https://reqres.in/#support-heading'\u001b[39m,\n    text: \u001b[32m'To keep ReqRes free, contributions towards server costs are appreciated!'\u001b[39m\n  }\n}\n"
+                    },
+                    {
+                      "text": "Test is ending\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:04.785Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0840a8b5393c07291fd9-d3d6f87235093ff8cf4e",
+          "file": "reqresInTest.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Create User",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 600,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test is starting\n"
+                    },
+                    {
+                      "text": "{\n  name: \u001b[32m'morpheus'\u001b[39m,\n  job: \u001b[32m'leader'\u001b[39m,\n  id: \u001b[32m'309'\u001b[39m,\n  createdAt: \u001b[32m'2024-09-17T18:13:09.048Z'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "Test is ending\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:05.100Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0840a8b5393c07291fd9-f4b8073fd1a4a5d1ba4d",
+          "file": "reqresInTest.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Update user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 703,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Test is started\n"
+                    },
+                    {
+                      "text": "{\n  name: \u001b[32m'salekin'\u001b[39m,\n  job: \u001b[32m'engineer'\u001b[39m,\n  updatedAt: \u001b[32m'2024-09-17T18:13:09.156Z'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:05.118Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0840a8b5393c07291fd9-04f6b5d45dfaa3b514d0",
+          "file": "reqresInTest.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Delete user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 562,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T18:13:05.710Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0840a8b5393c07291fd9-7cd3bdf6d1c1390aac71",
+          "file": "reqresInTest.spec.js",
+          "line": 40,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "reqresInTest1.spec.js",
+      "file": "reqresInTest1.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API Testing",
+          "file": "reqresInTest1.spec.js",
+          "line": 2,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Simple API Test- Assert Response Status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 207,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-17T18:13:05.846Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "66924b9ca6c9c44f412d-547cea7f89e2923b465f",
+              "file": "reqresInTest1.spec.js",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "Simple API Test-2 Assert Response Status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 557,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-17T18:13:05.846Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "66924b9ca6c9c44f412d-fa7e5d86f9d16827d947",
+              "file": "reqresInTest1.spec.js",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "Get request-- Get User Detail",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 428,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  data: {\n    id: \u001b[33m1\u001b[39m,\n    name: \u001b[32m'cerulean'\u001b[39m,\n    year: \u001b[33m2000\u001b[39m,\n    color: \u001b[32m'#98B2D1'\u001b[39m,\n    pantone_value: \u001b[32m'15-4020'\u001b[39m\n  },\n  support: {\n    url: \u001b[32m'https://reqres.in/#support-heading'\u001b[39m,\n    text: \u001b[32m'To keep ReqRes free, contributions towards server costs are appreciated!'\u001b[39m\n  }\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-17T18:13:06.062Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "66924b9ca6c9c44f412d-4484c40d14d9d10ec14e",
+              "file": "reqresInTest1.spec.js",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Post Request - Create New User",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 556,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-17T18:13:06.284Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "66924b9ca6c9c44f412d-85d35bbcc73735606e90",
+              "file": "reqresInTest1.spec.js",
+              "line": 33,
+              "column": 9
+            }
+          ]
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-14T10:11:19.350Z",
-    "duration": 1665.6979999999999,
-    "expected": 1,
+    "startTime": "2024-09-17T18:12:56.803Z",
+    "duration": 10346.297,
+    "expected": 14,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

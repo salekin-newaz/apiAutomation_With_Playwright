@@ -1,0 +1,11 @@
+{
+  bookingid: 3615,
+  booking: {
+    firstname: 'salekin',
+    lastname: 'newaz',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'windows'
+  }
+}

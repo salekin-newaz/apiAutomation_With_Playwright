@@ -14,8 +14,7 @@ test('Get user', async ({ request }) => {
 test('Create User', async ({ request }) => {
     console.log('Test is starting');
     const response = await request.post('https://reqres.in/api/users',
-        {
-            data:{"name": "morpheus", "job": "leader"},
+        {            data:{"name": "morpheus", "job": "leader"},
             headers:{"Accept": "application.json"}
         });
 
